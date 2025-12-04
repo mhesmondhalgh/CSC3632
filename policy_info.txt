@@ -1,0 +1,16 @@
+The policy is:
+
+OSA: Permit if OKHT
+OSB: Deny if OWOR
+OSC: Deny if BFPC
+OSD: FA(OSA,OSB)
+OSE: OOA(OSD,OSC)
+HSA: Deny if OR(KPFS,BFIE)
+HSB: Permit if NXLF
+HSD: Deny if ZLTO
+HSC: DOV(HSA,HSB)
+HSE: DOV(HSC,HSD)
+P: POV(OSE,HSE)
+
+
+The address for the script is: http://10.0.0.5/aclive/ZLUtjB5K/A.php
